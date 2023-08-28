@@ -1,0 +1,12 @@
+<div class="contenedor">
+    <h2>Sección {{nombreGen}}</h2>
+    <div class="contenido">
+        <div class="cartelera" *ngFor="let pelicula of peliculasMostrar">
+            <div class="img">
+                <img [src]="pelicula.imagen" alt="">
+            </div>
+            <h3>{{pelicula.nombre}}</h3>
+            <button (click)="verDetalles(pelicula.nombre)">Ver detalles</button>
+        </div>
+    </div>
+</div>

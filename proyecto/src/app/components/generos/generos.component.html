@@ -1,0 +1,12 @@
+<div class="contenedor">
+    <h2>Elija un genero de película</h2>
+    <div class="contenido">
+        <div class="cartelera" *ngFor="let genero of generos">
+            <div class="img">
+                <img [src]="genero.imagen" alt="">
+            </div>
+            <h3>{{genero.nom_genero}} </h3>
+            <button (click)="entrar(genero.nom_genero)">Entrar</button>
+        </div>
+    </div>    
+</div>

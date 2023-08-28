@@ -1,0 +1,36 @@
+ul, .login {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 40px;
+}
+img {
+    width: 90px;
+    transform: rotate(20deg);
+}
+.logo {
+    background-color: rgb(219, 179, 245);
+    padding: 13px;
+    border-radius: 30px;
+    transform: rotateZ(-20deg);
+}
+#login {
+    padding: 8px 10px;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+}
+#login:hover {
+    background-color: wheat;
+    color: black;
+}
